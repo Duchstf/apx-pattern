@@ -7,8 +7,8 @@
   * This reads the dump files, so you can use the 1000 events TTbar + 200 PU files in the repo (the script default) or produce some other dump file to do more events / different samples. 
 
 * That will produce a file `proj_deregionizer_emulator_test/solution/csim/build/DeregionizerIn.txt`:
-  * On Serenity / emp-fwk, that can be converted to pattern files with  script.
-  * On Apx framework, it can be converted to pattern files with 
+  * On Serenity / emp-fwk, that can be converted to pattern files with `rufl_file_to_pfile_emp.py` script.
+  * On Apx framework, it can be converted to pattern files with `rufl_file_to_pfile_APx.py`
   * The script can be run, for example, like the following:
     ```
     python rufl_file_to_pfile_APx.py -o pattern_files_APd/source.txt -s
